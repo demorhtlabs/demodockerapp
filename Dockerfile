@@ -1,4 +1,4 @@
-FROM centos:7
+FROM centos:centos7
 MAINTAINER Luis Perez <lperez@itm.gt>
 ENV LD_LIBRARY_PATH=/opt/rh/python27/root/usr/lib64
 RUN yum install -y epel-release && yum install -y python python2-pip python-netifaces && mkdir /opt/app
